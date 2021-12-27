@@ -13,7 +13,7 @@
   margin-top: 30px;
 }
 
-.street {
+.user {
   list-style: none;
   margin: 10px 0;
   padding: 10px;
@@ -22,15 +22,15 @@
   justify-content: space-between;
 }
 
-.street-id {
+.user-id {
   color: red;
   margin-right: 20px;
 }
 
-.street-engStreetName {
+.user-name {
   color: blue;
 }
 
-.street-chiStreetName  {
+.user-age {
   margin-left: auto;
 }
