@@ -32,5 +32,6 @@
 }
 
 .street-chiStreetName  {
-  margin-left: auto;
+  margin-left: 10px;
+  text-align: right;
 }
