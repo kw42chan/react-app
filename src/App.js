@@ -147,11 +147,11 @@ function App() {
 
       <div className="street-list">
         {foundStreets && foundStreets.length > 0 ? (
-          foundStreets.map((engStreetName) => (
+          foundStreets.map((street) => (
             <li key={engStreetName.id} className="engStreetName">
-              <span className="street-id">{STREETS.id}</span>
-              <span className="street-engStreetName">{STREETS.engStreetName}</span>
-              <span className="street-chiStreetName">{STREETS.chiStreetName}</span>
+              <span className="street-id">{street.id}</span>
+              <span className="street-engStreetName">{street.engStreetName}</span>
+              <span className="street-chiStreetName">{street.chiStreetName}</span>
             </li>
           ))
         ) : (
